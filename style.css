@@ -27,6 +27,7 @@ top: 22px;
 margin-left: 50px;
 border-radius: 4px;
 background-color: #FE461C;
+color: white;
 }
 li {
     font-family: Outfit;
@@ -56,6 +57,76 @@ li {
     background-color: #1F2235
 }
 
-    .ellipse {
+.ellipse {
+    position: absolute;
+    right: 250px;
+    top: 242px;
     width: 634px;
+}
+.text-banner {
+   position: absolute;
+   top: 335px;
+   left: 343px;
+}
+.banner-p {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    line-height: 20px;
+    letter-spacing: 15%;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+}
+h1 {
+    font-family: Outfit;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.banner-h3 {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+    margin-bottom: 36px;
+}
+.banner-button-orange {
+    width: 160px;
+    height: 50px;
+    left: 343px;
+    top: 625px;
+    border-radius: 4px;
+    background-color: #FE461C;
+    color: white;
+}
+.banner-last-button {
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #1F2235;
+}
+.ellipse-alone {
+    position: absolute;
+    right: 84%;
+    bottom: 68%;
+}
+.sicial-icons {
+    position: absolute;
+    display: grid;
+    left: -50%;
+    bottom: 5%;
 }
