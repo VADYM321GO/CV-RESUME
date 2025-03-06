@@ -3,6 +3,7 @@
     padding: 0;
 }
 header {
+    height: 900px;
     background-color: #1F2235;
 }
 nav {
@@ -17,22 +18,22 @@ nav {
     background-color: #1f2235;
     
 }
-ul {
+ .ul-header {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
 .header-button {
-width: 152px;
-height: 50px;
-left: 1468px;
-top: 22px;
-margin-left: 50px;
-border-radius: 4px;
-background-color: #FE461C;
-color: white;
+    width: 152px;
+    height: 50px;
+    left: 1468px;
+    top: 22px;
+    margin-left: 50px;
+    border-radius: 4px;
+    background-color: #FE461C;
+    color: white;
 }
-li {
+.li-header {
     font-family: Outfit;
     font-size: 16px;
     font-weight: 700;
@@ -133,4 +134,191 @@ h1 {
     display: grid;
     left: -50%;
     bottom: 5%;
+}
+.about {
+    height: 900px;
+    background-color: #24263B;
+}
+.about-photo {
+    margin: 270px 60px 34px 350px;
+}
+.aboutMe-text {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 15%;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 19px;
+}
+.name {
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+    margin-bottom: 15px;
+}
+.about-Johan {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+}
+.about-text {
+    position: absolute;
+    left: 55%;
+    bottom: -30%;
+}
+.first-column {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+    line-height: 3;
+}
+.second-column {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    line-height: 3;
+    color: white;
+}
+.third-colum {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    line-height: 3;
+    color: white;
+}
+.fourth-column {
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    line-height: 3;
+    color: white;
+}
+.columns {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    left: 55%;
+    bottom: -50%;
+}
+.about-button {
+    position: absolute; 
+    left: 55%;
+    bottom: -58%;
+    width: 160px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FE461C;
+    color: white;
+}
+.portfolio {
+    height: 1270px;
+    background-color: #1f2235;
+}
+.text-content {
+    position: absolute;
+    text-align: center;
+    margin-top: 120px;
+    left: 0;
+    right: 0;
+}
+.title-portfolio {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 15%;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 17px;
+}
+.subtitile {
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-bottom: 54px;
+}
+.li-portfolio {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+    margin: 0 17px;
+}
+.bloks-porfolio
+{
+    position: absolute;
+    display: flex;
+    gap: 24px;
+    margin: 323px 300px 119px 300px;
+
+    
+}
+.small-box {
+    width: 424px;
+    height: 260px;
+    background-color: #D9D9D9;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+.big-box {
+    position: relative;
+    width: 424px;
+    height: 544px;
+    background-color: #D9D9D9;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+.title-big-box {
+    position: absolute;
+    bottom: 58px;
+    left: 29px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+ 
+
+}
+.subtitle-big-box {
+    position: absolute;
+    left: 29px;
+    bottom: 28px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    color: white;
 }
