@@ -321,7 +321,6 @@ h1 {
     background-color: #24263B;
 }
 .titles-services {
-    /* position: absolute; */
     text-align: center;
     left: 0;
     right: 0;
@@ -348,7 +347,6 @@ h1 {
     color: white;
 }
 .conteiners-service {
-    /* position: absolute; */
     display: flex;
     justify-content: center;
     gap: 31px;
@@ -473,4 +471,151 @@ h1 {
     color: white;
     margin-top: 27px;
     margin-bottom: 37px;
+}
+.resume {
+    height: 806px;
+    background-color: #1F2235;
+    padding-top: 120px;
+}
+.box-resume {
+    border-radius: 4px;
+    box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+    background: rgb(36, 38, 59);
+    width: 97px;
+    height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.text-resume {
+    margin-left: 300px;
+
+}
+.title-resume {
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 15%;
+    padding-top: 11px;
+}
+.subtitle-resume {
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 47px;
+}
+.firsc-button {
+    width: 90px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+    background: rgb(254, 70, 28);
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.second-button {
+    width: 121px;
+    height: 36px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+    background: rgb(36, 38, 59);
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.third-button {
+    width: 121px;
+    height: 36px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+    background: rgb(36, 38, 59);
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.first-orange-lines {
+    width: 606px;
+    height: 54px;
+    margin-left: 300px;
+    margin-top: 39px;
+    text-align: end;
+}
+.text-orange-line {
+    display: flex;
+    margin-bottom: 15px;
+}
+.second-orange-lines {
+    width: 606px;
+    height: 54px;
+    margin-left: 300px;
+    margin-top: 39px;
+}
+.third-orange-lines {
+    width: 606px;
+    height: 54px;
+    margin-left: 300px;
+    margin-top: 39px;
+}
+.fourth-orange-lines {
+    width: 606px;
+    height: 54px;
+    margin-left: 300px;
+    margin-top: 39px;
+    
+}
+.white-line {
+    width: 606px;
+    height: 18px;
+    border-radius: 300px;
+    background: rgb(255, 255, 255);
+}
+.line-name {
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.percent {
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.photo-resume {
+    margin-left: 55%;
+    margin-top: -22%;
 }
