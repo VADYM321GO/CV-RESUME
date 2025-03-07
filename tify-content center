@@ -1,0 +1,68 @@
+[33mcommit df09bd83c4b85b1174ccb2124d3d945d09153367[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnew-section-resume[m[33m, [m[1;31morigin/new-section-services[m[33m, [m[1;32mnew-section-services[m[33m)[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Thu Mar 6 22:54:53 2025 +0100
+
+    aded new section serices and fixed bags
+
+[33mcommit db1c97ac7d4fd8c1a809cef041638cf272000fc7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: c4cdf48 f9c5b2a
+Author: VADYM321GO <106699500+VADYM321GO@users.noreply.github.com>
+Date:   Thu Mar 6 15:17:22 2025 +0100
+
+    Merge pull request #3 from VADYM321GO/feature/slider
+    
+    aded new section
+
+[33mcommit f9c5b2a8f2576aa3946fa2b16c7f39d68b26fd12[m[33m ([m[1;31morigin/feature/slider[m[33m, [m[1;32mfeature/slider[m[33m)[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Thu Mar 6 15:15:07 2025 +0100
+
+    aded new section
+
+[33mcommit c4cdf488b293bae249f3017864e8ad223c60f8fe[m
+Merge: 16332bb a97301a
+Author: VADYM321GO <106699500+VADYM321GO@users.noreply.github.com>
+Date:   Wed Mar 5 16:18:57 2025 +0100
+
+    Merge pull request #2 from VADYM321GO/feature/slider
+    
+    made corrections to the first section
+
+[33mcommit a97301a72b56153b7678a941a3992e9a8d68297d[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Wed Mar 5 16:16:54 2025 +0100
+
+    made corrections to the first section
+
+[33mcommit 16332bb99d7787cea625c559550b490128a1d0f1[m
+Merge: 7d2a3d5 f9d68af
+Author: VADYM321GO <106699500+VADYM321GO@users.noreply.github.com>
+Date:   Tue Mar 4 22:32:59 2025 +0100
+
+    Merge pull request #1 from VADYM321GO/feature/slider
+    
+    aded slider
+
+[33mcommit f9d68af6c3de1ec6585da2c1b553a685bb06345d[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Tue Mar 4 22:27:26 2025 +0100
+
+    aded slider
+
+[33mcommit 7d2a3d5257f001c5d3e1a3ea8e7a4b8e8395e8de[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Tue Mar 4 21:47:27 2025 +0100
+
+    created first section
+
+[33mcommit c96b117c4b00fa27e8089cdd7b6807014e034474[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Tue Mar 4 14:38:20 2025 +0100
+
+    added img ellipse
+
+[33mcommit 800d768078ded38f50d236331585cc97b0f71d88[m
+Author: VADYM321GO <vadimplehun51@gmail.com>
+Date:   Tue Mar 4 13:45:07 2025 +0100
+
+    created header
