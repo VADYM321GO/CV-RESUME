@@ -46,7 +46,7 @@ nav {
 .orange-text {
     color: #FE461C;
 }
-
+/* SECTION BANNER */
 .banner {
     background-color: #1F2235;
     width: 100%;
@@ -127,6 +127,7 @@ h1 {
     left: -50%;
     bottom: 5%;
 }
+/* SECTION ABOUT */
 .about {
     height: 900px;
     background-color: #24263B;
@@ -225,6 +226,7 @@ h1 {
     background-color: #FE461C;
     color: white;
 }
+/* SECTION PORTFOLIO */
 .portfolio {
     height: 1270px;
     background-color: #1f2235;
@@ -314,6 +316,7 @@ h1 {
     line-height: 15px;
     color: white;
 }
+/* SECTION SERVICES */
 .services {
     padding-top: 132px;
     /* position: relative; */
@@ -472,6 +475,7 @@ h1 {
     margin-top: 27px;
     margin-bottom: 37px;
 }
+/* SECTION RESUME */
 .resume {
     height: 806px;
     background-color: #1F2235;
@@ -619,8 +623,9 @@ h1 {
     margin-left: 55%;
     margin-top: -22%;
 }
+/* SECTION TESTIMONIAL */
 .testimonial {
-    height: 747px;
+    height: 748px;
     background-color: #24263B;
     padding-top: 120px;
 }
@@ -759,6 +764,95 @@ h1 {
     font-family: Roboto;
     font-size: 16px;
     line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* SECTION BLOG */
+.blog {
+    height: 862px;
+    background-color: #1F2235;
+    padding-top: 120px;
+}
+.text-blog {
+    text-align: center;
+}
+
+.title-blog {
+    width: 161px;
+    height: 28px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+    background: #24263B;
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 15%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 45%;
+    margin-bottom: 24px;
+    padding-top: 13px;
+}
+.subtitle-blog {
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.conteiners-blog {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.boxes-blog {
+    display: flex;
+    margin-top: 61px;
+    width: 424px;
+    height: 315px;
+    border-radius: 8px;
+    background: rgb(217, 217, 217);
+}
+.text-element {
+    margin-right: 18px;
+    color: rgb(255, 255, 255);
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.content-text-blog {
+    display: ruby;
+    width: 360px;
+    margin-top: 330px;
+}
+.element-blog-icon {
+    margin-right: 9px;
+}
+.title-under-boxes {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.subtitle-under-boxes {
+    color: rgb(255, 255, 255);
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
 }
