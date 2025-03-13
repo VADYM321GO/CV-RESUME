@@ -240,11 +240,8 @@ h1 {
     background-color: #1f2235;
 }
 .text-content {
-    position: absolute;
     text-align: center;
-    margin-top: 120px;
-    left: 0;
-    right: 0;
+    padding-top: 120px;
 }
 .title-portfolio {
     font-family: Outfit;
@@ -280,10 +277,10 @@ h1 {
 }
 .bloks-porfolio
 {
-    position: absolute;
     display: flex;
+    justify-content: center;
     gap: 24px;
-    margin: 323px 300px 119px 300px;
+    margin-top: 36px;
 
     
 }
@@ -295,7 +292,6 @@ h1 {
     border-radius: 10px;
 }
 .big-box {
-    position: relative;
     width: 424px;
     height: 544px;
     background-color: #D9D9D9;
@@ -303,31 +299,27 @@ h1 {
     border-radius: 10px;
 }
 .title-big-box {
-    position: absolute;
-    bottom: 58px;
-    left: 29px;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
     color: white;
+    padding-top: 110%;
+    margin-left: 20px;
  
 
 }
 .subtitle-big-box {
-    position: absolute;
-    left: 29px;
-    bottom: 28px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 15px;
     color: white;
+    margin-left: 20px;
 }
 /* SECTION SERVICES */
 .services {
     padding-top: 132px;
-    /* position: relative; */
     height: 750px;
     background-color: #24263B;
 }
@@ -711,19 +703,16 @@ h1 {
     border-left: 70px solid #1F2235;
 }
 .circle-testimonial {
-    position: absolute;
-    margin-top: 6%;
-    left: 10%;
+    margin-top: 30%;
+    margin-left: -10%;
 }
 .second-circle-testimonial {
-    position: absolute;
-    margin-top: 6%;
-    left: 38%;
+    margin-top: 30%;
+    margin-left: -10%;
 }
 .third-circle-testimonial {
-    position: absolute;
-    margin-top: 6%;
-    right: 31%;
+    margin-top: 30%;
+    margin-left: -10%;
 }
 .name-box {
     color: rgb(255, 255, 255);
@@ -747,19 +736,19 @@ h1 {
     margin-bottom: 14px;
 }
 .mark-box {
-    position: absolute;
-    left: 26%;
-    margin-top: -4%;
+    margin-left: 60%;
+    margin-top: -15%;
+    margin-bottom: 6%;
 }
 .second-mark-box {
-    position: absolute;
-    left: 54%;
-    margin-top: -4%;
+    margin-left: 60%;
+    margin-top: -15%;
+    margin-bottom: 6%;
 }
 .third-mark-box {
-    position: absolute;
-    right: 16%;
-    margin-top: -4%;
+    margin-left: 60%;
+    margin-top: -15%;
+    margin-bottom: 6%;
 }
 .line-box {
     width: 290px;
@@ -943,7 +932,6 @@ h1 {
 }
 /* SECTION-CONTACT */
 .contact {
-    position: relative;
     height: 1448px;
     background: rgb(31, 34, 53);
     padding-top: 130px;
@@ -1010,9 +998,8 @@ h1 {
     text-align: left;
 }
 .send-contact {
-    position: absolute;
-    right: 16%;
-    bottom: 53%;
+    margin-left: 45%;
+    margin-top: -22%;
     width: 710px;
     height: 470px;
 }
