@@ -19,6 +19,9 @@ nav {
     
     
 }
+a {
+    text-decoration: none;
+}
  .list-header {
     display: flex;
     justify-content: space-around;
@@ -666,6 +669,7 @@ h1 {
     margin-top: 50px;
 }
 .box-test {
+    position: relative;
     padding-left: 42px;
     padding-top: 41px;
     width: 424px;
@@ -674,8 +678,8 @@ h1 {
 }
 .triangle {
     position: absolute;
-    margin-top: 1%;
-    left: 9.55%;
+    margin-top: 4%;
+    left: 0%;
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
@@ -684,8 +688,8 @@ h1 {
 }
 .second-triangle {
     position: absolute;
-    margin-top: 1%;
-    left: 37.3%;
+    margin-top: 4%;
+    left: 0%;
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
@@ -694,8 +698,8 @@ h1 {
 }
 .third-triangle {
     position: absolute;
-    margin-top: 1%;
-    right: 31.11%;
+    margin-top: 4%;
+    left: 0%;
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
@@ -920,7 +924,7 @@ h1 {
     position: absolute;
     right: 16.8%;
     width: 190px;
-    height: 60px;
+    height: 61px;
     border: none;
     border-radius: 80px;
     background: rgb(254, 70, 28);
@@ -1077,4 +1081,1324 @@ footer {
     font-weight: 400;
     line-height: 20px;
     padding: 35px;
+}
+
+@media screen and (max-width: 1280px) {
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .conteiner-text-banner {
+        
+        max-width: 720px;
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+    .ellipse {
+        max-width: 400px;
+        height: auto;
+    }
+    .ellipse-alone {
+        margin-top: -15%;
+        width: 200px;
+        height: auto;
+        margin-left: 10%;
+    }
+    .about-photo {
+        max-width: 400px;
+        height: auto;
+        margin: 0;
+        margin-left: 10%;
+
+    }
+    .small-box {
+        width: 350px;
+        height: 220px;
+    }
+    .big-box {
+        width: 352px;
+        height: 469px;
+    }
+    .conteiners-service-blocks {
+        width: 200px;
+        height: 340px;
+    }
+    .block-arrow {
+        margin-top: -20%;
+    }
+    .text-resume {
+        margin-left: 10%;
+    }
+    .orang-line-adaptive {
+        margin-left: 10%;
+    }
+    .photo-resume {
+        width: 400px;
+        margin-left: 63%;
+        margin-top: -27%;
+    }
+    .box-test {
+        width: 250px;
+    }
+    .content-box {
+    font-size: 14px;
+    }
+    .triangle {
+        margin-top: -8%;
+    }
+    .line-box {
+        width: 247px;
+    }
+    .boxes-blog {
+        width: 370px;
+        height: 300px;
+    }
+    .title-under-boxes {
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .subtitle-under-boxes {
+        font-size: 14px;
+    }
+    .subtitle-subscribe {
+        font-size: 45px;
+    }
+    .emial-subscribe {
+        width: 500px;
+    }
+    .button-subscribe {
+        right: 8%;
+    }
+    .blocks-of-information {
+        margin-left: 5%;
+    }
+    .send-contact {
+        margin-left: 39%;
+        margin-top: -32%;
+    }
+    .map-contact {
+        width: 900px;
+        height: 510px;
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .list-header {
+        flex-direction: column;
+    }
+     header {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        line-height: 40px;
+     }
+     .li-header {
+        text-align: center;
+        margin: 0;
+     }
+     .header-button {
+        margin: 0;
+     }
+     .conteiner-text-banner {
+        padding:15% 0 0;
+     }
+     h1 {
+        line-height: 60px;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 0;
+     }
+     .text-banner {
+        margin: 0;
+     }
+     .banner-p {
+        text-align: center;
+     }
+     .banner-third-text {
+        text-align: center;
+     }
+     .buttons-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .banner-button-orange {
+        margin-bottom: 15px;
+     }
+    .ellipse-alone {
+        display: none;
+    }
+    .box-ellipse-elone {
+        display: none;
+    }
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .box-ellipse {
+        margin: 0;
+    }
+    .ellipse {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .about {
+        padding-top: 20px;
+        height: 800px;
+    }
+    .about-photo {
+        display: flex;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .about-text {
+        margin: 0;
+    }
+    .aboutMe-text {
+        text-align: center;
+    }
+    .name {
+        text-align: center;
+    }
+    .about-Johan {
+        text-align: center;
+    }
+    .columns {
+        margin: 20px 0 0 0;
+        gap: 9px;
+        margin-left: 4%;
+    }
+    .adaptive-columns {
+        font-size: 10px;
+    }
+    .about-button {
+        display: flex;
+        margin: 0 auto;
+        padding: 14px 35px;
+        margin-top: 50px;
+    }
+    .small-box {
+        display: none;
+    }
+    .big-box {
+        display: none;
+    }
+    .adaptive-boxes-big {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .adaptive-boxes-small {
+        display: flex;
+        width: 250px;
+        height: 150px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+    .title-big-box {
+        width: 100%;
+        padding-top: 70%;
+    }
+
+    .list-portfolio {
+        margin: 20px;
+        line-height: 40px;
+    }
+    .portfolio {
+        height: 900px;
+    }
+    .text-content {
+        padding-top: 50px;
+    }
+    .services {
+        height: 1800px;
+    }
+    .conteiners-service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-resume {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .text-resume {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .subtitle-resume {
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        margin: 10px;
+    }
+    .orang-line-adaptive {
+        width: 270px;
+    }
+    .white-line {
+        width: 0%;
+
+    }
+    .line-name {
+        font-size: 15px;
+    }
+    .percent {
+        font-size: 13px
+    }
+    .first-line {
+        width: 275px;
+    }
+    .second-line {
+        width: 275px;
+    }
+    .third-line {
+        width: 275px;
+    }
+    .fourth-line {
+        width: 275px;
+    }
+    .photo-resume {
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .testimonial {
+        height: 1500px;
+    }
+    .title-testimonial {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .boxes-testimonial {
+        display: flex;
+        gap: 120px;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .circle-testimonial {
+        margin-top: 60px;
+    }
+    .second-circle-testimonial {
+        margin-top: 60px;
+    }
+    .blog {
+        height: 1500px;
+        padding-top: 80px;
+    }
+    .title-blog {
+        margin: 0 auto;
+    }
+    .conteiners-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .boxes-blog {
+        width: 290px;
+        height: 220px;
+        margin-top: 40px;
+        margin-bottom: 160px;
+    }
+    .content-text-blog {
+        margin-top: 235px;
+    }
+    .title-under-boxes {
+        font-size: 20px;
+    }
+    .subtitle-under-boxes {
+        font-size: 12px;
+    }
+    .text-element {
+        margin-right: 14px;
+    }
+    .subsceibe {
+        height: 550px;
+    }
+    .content-subscribe {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        height: 320px;
+    }
+    .text-subscribe {
+        margin: 0;
+    }
+    .title-subscribe {
+        text-align: center;
+    }
+    .subtitle-subscribe {
+        text-align: center;
+    }
+    .last-text-subskribe {
+        text-align: center;
+    }
+    .place-for-email {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .emial-subscribe {
+        width: 270px;
+        height: 35px;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+    .button-subscribe {
+        margin-right: -10px;
+        margin-top: 40px;
+        height: 35px;
+        width: 100px;
+    }
+    .contact {
+        padding-top: 50px;
+        
+    }
+    .title-contact {
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .title-information {
+        font-size: 15px;
+    }
+    .subtitle-information {
+        font-size: 10px;
+    }
+    .icons-contact {
+        width: 80px;
+    }
+    .blocks-of-information {
+        width: 250px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .send-contact {
+        max-width: 320px;
+        margin: 0 auto;
+
+    }
+    .send-name {
+        margin-left: 6%;
+        margin-top: 5%;
+        width: 280px;
+        margin-bottom: 18px;
+    }
+    .send-email {
+        margin-left: 6%;
+        width: 280px;
+
+    }
+    .enter-contact {
+        display: flex;
+        flex-direction: column;
+        margin-left: -5px;
+    }
+    .send-message {
+        margin-left: 6%;
+        width: 280px;
+    }
+    .title-send {
+        max-width: 200px;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .button-send {
+        margin-left: 60px;
+    }
+    .map-contact {
+        width: 250px;
+        height: 300px;
+        margin-left: 13%;
+    }
+    
+
+}
+@media screen and (min-width: 481px) and (max-width:786px) {
+    header {
+        min-width: 786px;
+    }
+    .banner {
+        min-width: 786px;
+    }
+    .conteiner-text-banner {
+        padding-top: 4%;
+    }
+    .box-ellipse-elone {
+        display: none;
+    }
+    .text-banner {
+    margin-left: 12%;
+    }
+    .social-icons {
+        margin-left: 20%;
+        margin-top: 6%;
+    }
+    .box-ellipse {
+        margin-top: -32%;
+        margin-right: 5%;
+    }
+    .about {
+        min-width: 786px;
+    }
+    .about-photo {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .about-text {
+        margin-top: -46%;
+        margin-left: 53%;
+    }
+    .columns {
+        margin-top: 8%;
+        margin-left: 15%;
+    }
+    .about-button {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .portfolio {
+        min-width: 786px;
+        height: 850px;
+    }
+    .small-box {
+        width: 210px;
+        height: 110px;
+    }
+    .big-box {
+        width: 210px;
+        height: 280px;
+    }
+    .title-big-box {
+        padding-top: 63%;
+    }
+    .services {
+        min-width: 786px;
+    }
+    .conteiners-service {
+        gap: 20px;
+    }
+    .conteiners-service-blocks {
+        width: 100px;
+        height: 360px;
+        padding-left: 20px;
+        padding-right: 35px;
+    }
+    .title-adaptive  {
+        font-size: 19px;
+    }
+    .subtitle-adaptive {
+        font-size: 14px;
+    }
+    .block-arrow {
+        margin-top: 0;
+    }
+    .resume {
+        min-width: 786px;
+        height: 950px;
+    }
+    .photo-resume {
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+    .testimonial {
+        min-width: 786px;
+        height: 1500px;
+    }
+    .title-testimonial {
+        margin: 0 auto;
+    }
+    .boxes-testimonial {
+        gap: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog {
+       min-width: 786px; 
+       height: 1700px;
+    }
+    .conteiners-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 140px;
+    }
+    .title-blog {
+        margin: 0 auto;
+    }
+    .subsceibe {
+        min-width: 786px;
+    }
+    .content-subscribe {
+        padding-top: 100px;
+        min-width: 786px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+    .button-subscribe {
+        right: -6%;
+    }
+    .place-for-email {
+        margin: 0;
+    }
+    .text-subscribe {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .emial-subscribe {
+        position: relative;
+        margin: 0;
+    }
+        .button-subscribe {
+        right: auto;
+    }
+    .contact {
+        min-width: 786px;
+    }
+        .send-contact {
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+    .blocks-of-information {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .title-contact {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+        .map-contact {
+        width: 500px;
+        height: 311px;
+        margin: 0 auto;
+        margin-left: 20%;
+    }
+
+    footer {
+        min-width: 786px;
+    }
+}
+@media screen and (min-width: 787px) and (max-width:1024px) {
+    header {
+        min-width: 1024px;
+    }
+    .banner {
+        min-width: 1024px;
+        height: 600px;
+    }
+    .conteiner-text-banner {
+        max-width: 720px;
+        padding-top: 6%;
+        padding-left: 5%;
+    }
+    .ellipse {
+        max-width: 320px;
+        height: auto;
+        margin-right: -2%;
+    }
+        .ellipse-alone {
+        margin-top: -13%;
+        width: 150px;
+        height: auto;
+        margin-left: 12%;
+    }
+    .about {
+        padding-top: 50px;
+        height: 700px;
+        min-width: 1024px;
+    }
+    .columns {
+        margin: 24px 0px 24px 20%;
+    }
+    .portfolio {
+        min-width: 1024px;
+        height: 1000px;
+    }
+    .big-box {
+        width: 281px;
+        height: 400px;
+    }
+    .small-box {
+        width: 280px;
+        height: 172px;
+    }
+    .services {
+        min-width: 1024px;
+        height: 650px;
+
+    }
+    .conteiners-service-blocks {
+    width: 154px;
+    height: 374px;
+    }
+    .conteiners-service {
+        gap: 30px;
+    }
+    .title-adaptive {
+        font-size: 18px;
+    }
+    .resume {
+        min-width: 1024px;
+        height: 950px;
+    }
+    .photo-resume {
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+    .testimonial {
+        min-width: 1024px;
+        height: 650px;
+    }
+    .title-testimonial {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .blog {
+       min-width: 1024px; 
+    }
+    .boxes-blog {
+        width: 310px;
+    }
+    .subsceibe {
+        min-width: 1024px;
+    }
+    .place-for-email {
+        position: relative;
+        margin: 0;
+    }
+    .emial-subscribe {
+        margin: 0;
+    }
+    .button-subscribe {
+        right: auto;
+    }
+    .contact {
+       min-width: 1024px; 
+    }
+    .title-contact {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+        .send-contact {
+        margin-left: 18%;
+        margin-top: 6%;
+    }
+    .blocks-adaptive-contact {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    .blocks-of-information {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .icons-contact {
+        width: 100px;
+    }
+    .map-contact {
+        width: 759px;
+        height: 410px;
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    body {
+        min-width: 1440px;
+    }
+    .li-header {
+        font-size: 20px;
+    }
+    .banner-p {
+        font-size: 20px;
+    }
+    .banner-third-text {
+        width: 645px;
+        font-size: 20px;
+    }
+    .box-ellipse {
+        margin-right: 2%;
+    }
+    .ellipse {
+        max-width: 550px;
+        height: auto;
+    }
+    .about {
+        padding-top: 180px;
+        height: 500px;
+    }
+    .emial-subscribe {
+        position: relative;
+    }
+    .button-subscribe {
+        right: auto;
+    }
+    .send-contact {
+        margin-top: -29%;
+    }
+    .map-contact {
+        margin-left: 18%;
+    }
+    .aboutMe-text {
+        margin-top: 11%;
+        font-size: 20px;
+    }
+    .about-Johan {
+        font-size: 20px;
+    }
+    .about-text {
+        width: 670px;
+        margin-left: 50%;
+        margin-top: -40%;
+    }
+    .columns {
+        margin-left: 50%;
+    }
+    .adaptive-columns {
+        font-size: 20px;
+    }
+    .about-button {
+        margin-left: 50%;
+    }
+    .about-photo {
+        max-width: 600px;
+        margin-left: 4%;
+        margin-top: -7%;
+    }
+    .title-portfolio {
+        font-size: 30px;
+    }
+    .list-portfolio {
+        font-size: 20px;
+    }
+    .title-service {
+        font-size: 20px;
+    }
+    .conteiners-service-blocks {
+        width: 300px;
+        padding-right: 0px;
+    }
+    .title-adaptive {
+        font-size: 25px;
+    }
+    .subtitle-adaptive {
+        font-size: 20px;
+    }
+    .block-arrow {
+        margin-top: 0;
+    }
+    .title-resume {
+        font-size: 20px;
+    }
+    .title-testimonial {
+        font-size: 20px;
+    }
+    .box-test {
+        width: 350px;
+    }
+    .triangle {
+        margin-top: 3%;
+    }
+    .subtitle-box {
+        font-size: 20px;
+    }
+    .content-box {
+        font-size: 16px;
+    }
+    .title-blog {
+        font-size: 20px;
+    }
+    .subtitle-under-boxes {
+        font-size: 16px;
+    }
+    .title-contact {
+        font-size: 25px;
+    }
+    .title-send {
+        font-size: 28px;
+    }
+    .send-name {
+        font-size: 20px;
+    }
+    .send-email {
+        font-size: 20px;
+    }
+    .send-message {
+        font-size: 20px;
+    }
+    .blocks-of-information {
+        width: 430px;
+    }
+    .subtitle-information {
+        font-size: 19px;
+    }
+    .all-right {
+        font-size: 21px;
+    }
+   
+}
+@media screen and (min-width: 1281px) and (max-width:1440px) {
+    body {
+        min-width: 1440px;
+    }
+    header {
+        display: flex;
+        padding-top: 0;
+        padding-right: 0;
+        justify-content: center;
+
+    }
+    nav {
+        height: 70px;
+    }
+    .li-header {
+        font-size: 22px;
+    }
+    .header-button {
+        font-size: 18px;
+    }
+    .ellipse {
+        max-width: 500px;
+        margin-top: 13%;
+        height: auto;
+    }
+    .ellipse-alone {
+        margin-left: 12%;
+        margin-top: -6%;
+    }
+    .banner-third-text {
+        font-size: 20px;
+    }
+    .about-photo {
+        margin: 84px 10px 10px 76px;
+    }
+    .about {
+        padding: 0;
+        height: 700px;
+    }
+    .about-text {
+        margin-left: 51%;
+        width: 700px;
+    }
+    .aboutMe-text {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .columns {
+        margin-left: 51%;
+    }
+    .about-Johan {
+        font-size: 21px;
+    }
+    .adaptive-columns {
+        font-size: 20px;
+    }
+    .list-portfolio {
+        font-size: 20px;
+    }
+    .title-portfolio {
+        font-size: 23px;
+    }
+    .conteiners-service-blocks {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .title-service {
+        font-size: 23px;
+    }
+    .text-resume {
+        margin-left: 150px;
+    }
+    .subtitle-adaptive {
+        font-size: 20px;
+    }
+    .title-resume {
+        font-size: 20px;
+    }
+    .first-orange-lines {
+        margin-left: 150px;
+    }
+    .second-orange-lines {
+        margin-left: 150px;
+    }
+    .third-orange-lines {
+        margin-left: 150px;
+    }
+    .fourth-orange-lines {
+        margin-left: 150px;
+    }
+    .photo-resume {
+        margin-left: 55%;
+        margin-top: -32%;
+    }
+    .box-test {
+        width: 375px;
+    }
+    .blocks-adaptive-contact {
+        margin-left: -15%;
+    }
+    .title-testimonial {
+        font-size: 20px;
+    }
+    .triangle {
+        margin-top: -3%;
+    }
+    .content-box {
+        font-size: 19px;
+    }
+    .title-blog {
+        font-size: 20px;
+    }
+    .text-under-boxes {
+        min-width: 424px;
+    }
+    .subtitle-under-boxes {
+        font-size: 19px;
+    }
+    .map-contact {
+        margin: 0;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
+    .last-text-subskribe {
+        font-size: 19px;
+    }
+    .title-contact {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width:1960px) {
+    body {
+        min-width: 1960px;
+    }
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .banner {
+        height: 1000px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+    .li-header {
+        font-size: 35px;
+    }
+    .header-button {
+        font-size: 35px;
+        width: 230px;
+        height: 66px;
+        font-size: 26px;
+    }
+    .banner-p {
+        font-size: 45px;
+    }
+    h1 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+    .banner-third-text {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .banner-button-orange {
+        width: 250px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .banner-last-button {
+        width: 250px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .social-icons {
+        width: 150px;
+    }
+    .ellipse-alone {
+        width: 300px;
+        margin-left: 11%;
+        margin-top: -6%;
+    }
+    .box-ellipse {
+        margin-top: -26%;
+        margin-right: 2%;
+    }
+    .ellipse {
+        max-width: 650px;
+        height: auto;
+    }
+    .about {
+        padding-top: 0;
+        height: 950px;
+    }
+    .about-photo {
+        margin: 0;
+        margin-top: 9%;
+        margin-left: 8%;
+        width: 650px;
+    }
+    .about-text {
+        margin-top: -31%;
+    }
+    .aboutMe-text {
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .name {
+        font-size: 56px;
+    } 
+    .about-Johan {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .adaptive-columns {
+        font-size: 23px;
+    }
+    .about-button {
+        width: 270px;
+        height: 77px;
+        font-size: 25px;
+    }
+    .title-portfolio {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .subtitile {
+        font-size: 51px;
+    }
+    .list-portfolio {
+        font-size: 25px;
+    }
+    .title-big-box {
+        font-size: 32px;
+        padding-top: 100%;
+    }
+    .subtitle-big-box {
+        font-size: 23px;
+        margin-top: 14px;
+    }
+    .title-service {
+        font-size: 35px;
+    }
+    .subtitle-service {
+        font-size: 51px;
+    }
+    .conteiners-service-blocks {
+        width: 380px;
+        height: 400px;
+    }
+    .title-adaptive {
+        font-size: 36px;
+    }
+    .subtitle-adaptive {
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 0;
+    }
+    .block-arrow {
+        width: 150px;
+    }
+    .title-resume {
+        font-size: 35px;
+    }
+    .subtitle-resume {
+        font-size: 51px;
+    }
+    .buttons-adaptive {
+        width: 250px;
+        height: 60px;
+        font-size: 28px;
+    }
+    .orang-line-adaptive {
+        width: 792px;
+    }
+    .line-name {
+        font-size: 30px;
+    }
+    .white-line {
+        width: 790px;
+    }
+    .first-orange-lines {
+        text-align: start;
+    }
+    .percent {
+        font-size: 30px;
+    }
+    .photo-resume {
+        margin-left: 62%;
+        width: 700px;
+        margin-top: -26%;
+    }
+    .title-testimonial {
+        font-size: 35px;
+    }
+    .subtitle-testimonial {
+        font-size: 50px;
+    }
+    .box-test {
+        width: 530px;
+        height: 300px;
+    }
+    .name-box {
+        font-size: 37px;
+    }
+    .subtitle-box {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .line-box {
+        width: 500px;
+    }
+    .content-box {
+        font-size: 24px;
+        line-height: 43px;
+    }
+    .adaptive-circle {
+        width: 100px;
+    }
+    .blog {
+        height: 900px;
+    }
+    .title-blog {
+        font-size: 35px;
+    }
+    .subtitle-blog {
+        font-size: 50px;
+    }
+    .boxes-blog {
+        width: 550px;
+        height: 415px;
+    }
+    .content-text-blog {
+        margin-top: 83%;
+        width: 550px;
+    }
+    .element-admin {
+        width: 30px;
+    }
+    .element-blog-icon {
+        width: 35px;
+    }
+    .text-element {
+        font-size: 25px;
+    }
+    .text-under-boxes {
+        height: 150px;
+        
+    }
+    .title-under-boxes {
+        font-size: 33px;
+    }
+    .subtitle-under-boxes {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .content-subscribe {
+        width: 1620px;
+        height: 450px;
+    }
+    .title-subscribe {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .subtitle-subscribe {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    .last-text-subskribe {
+        font-size: 25px;
+    }
+    .emial-subscribe {
+        width: 700px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .button-subscribe {
+        width: 300px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .contact {
+        height: 1550px;
+    }
+    .title-contact {
+        margin-bottom: 3%;
+        font-size: 35px;
+    }
+    .subtitle-contact {
+        text-align: center;
+        font-size: 50px;
+    }
+    .title-send {
+        font-size: 40px;
+    }
+    .blocks-of-information {
+        width: 550px;
+        height: 200px;
+        margin-left: 10%;
+    }
+    .title-information {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .subtitle-information {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .send-contact {
+        margin-top: -33%;
+    }
+    .enter-contact {
+        width: 900px;
+    }
+    .send-name {
+        width: 400px;
+        height: 84px;
+        margin-right: 23px;
+        font-size: 25px;
+    }
+    .send-email {
+        width: 400px;
+        height: 84px;
+        font-size: 25px;
+    }
+    .send-message {
+        width: 830px;
+        height: 300px;
+        font-size: 25px;
+    }
+    .button-send {
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+    }
+    .map-contact {
+        margin-top: 12%;
+    }
+    .all-right {
+        font-size: 25px;
+    }
 }
